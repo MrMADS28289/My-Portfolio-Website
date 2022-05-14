@@ -14,11 +14,68 @@ const Expriences = () => {
                     <div className="exprience_contant">
                         <article className='exprience_details'>
                             <BsPatchCheckFill />
+                            <h4>HTML</h4>
+                            <small className='text-light'>Experienced</small>
+                        </article>
+                        <article className='exprience_details'>
+                            <BsPatchCheckFill />
+                            <h4>CSS</h4>
+                            <small className='text-light'>Experienced</small>
+                        </article>
+                        <article className='exprience_details'>
+                            <BsPatchCheckFill />
+                            <h4>JavaScript</h4>
+                            <small className='text-light'>Experienced</small>
+                        </article>
+                        <article className='exprience_details'>
+                            <BsPatchCheckFill />
+                            <h4>Bootstrap</h4>
+                            <small className='text-light'>Experienced</small>
+                        </article>
+                        <article className='exprience_details'>
+                            <BsPatchCheckFill />
+                            <h4>Tailwind</h4>
+                            <small className='text-light'>Experienced</small>
+                        </article>
+                        <article className='exprience_details'>
+                            <BsPatchCheckFill />
+                            <h4>React</h4>
+                            <small className='text-light'>Experienced</small>
                         </article>
                     </div>
                 </div>
-                <div className="exprience_backend">
 
+                {/* END OF FRONT END */}
+
+                <div className="exprience_backend">
+                    <h3>Backend Development</h3>
+                    <div className="exprience_contant">
+                        <article className='exprience_details'>
+                            <BsPatchCheckFill />
+                            <h4>Node JS</h4>
+                            <small className='text-light'>Experienced</small>
+                        </article>
+                        <article className='exprience_details'>
+                            <BsPatchCheckFill />
+                            <h4>MongoDB</h4>
+                            <small className='text-light'>Experienced</small>
+                        </article>
+                        <article className='exprience_details'>
+                            <BsPatchCheckFill />
+                            <h4>PHP</h4>
+                            <small className='text-light'>Experienced</small>
+                        </article>
+                        <article className='exprience_details'>
+                            <BsPatchCheckFill />
+                            <h4>MySQL</h4>
+                            <small className='text-light'>Experienced</small>
+                        </article>
+                        <article className='exprience_details'>
+                            <BsPatchCheckFill />
+                            <h4>Python</h4>
+                            <small className='text-light'>Experienced</small>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
