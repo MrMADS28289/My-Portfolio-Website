@@ -15,4 +15,57 @@
 .exprience_container>div:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.exprience_container>div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary)
+}
+
+.exprience_contant {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.exprience_details {
+    display: flex;
+    gap: 1rem;
+}
+
+.exprience_details-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+
+/* -------- MEDIA QUERIES FOR MEDIUM DEVICES -------*/
+@media screen and (max-width: 1024px) {
+    .exprience_container {
+        grid-template-columns: 1fr;
+    }
+
+    .exprience_container>div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .exprience_contant {
+        padding: 1rem;
+    }
+}
+
+/* -------- MEDIA QUERIES FOR SMALL DEVICES -------*/
+@media screen and (max-width: 600px) {
+    .exprience_container {
+        gap: 4rem;
+    }
+
+    .exprience_container>div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
 }
