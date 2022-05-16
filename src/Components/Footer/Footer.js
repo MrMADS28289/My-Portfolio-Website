@@ -3,10 +3,21 @@ import './Footer.css';
 import { MdFacebook } from 'react-icons/md';
 import { AiFillTwitterCircle, AiFillInstagram } from 'react-icons/ai';
 import { IoLogoLinkedin } from 'react-icons/io';
+import { BsFillSuitHeartFill } from 'react-icons/bs';
 
 const Footer = () => {
+
+    const date = new Date().getFullYear();
+
     return (
         <footer>
+            <div className="waves">
+                <div className="wave" id="wave1"></div>
+                <div className="wave" id="wave2"></div>
+                <div className="wave" id="wave3"></div>
+                <div className="wave" id="wave4"></div>
+            </div>
+
             <ul className='social_icon'>
                 <li><a href=""><MdFacebook className='footer_icon' /></a></li>
                 <li><a href=""><AiFillTwitterCircle className='footer_icon' /></a></li>
@@ -14,12 +25,14 @@ const Footer = () => {
                 <li><a href=""><AiFillInstagram className='footer_icon' /></a></li>
             </ul>
             <ul className="menu">
-                <li><a href="#home"><p className='menu_lin'>Home</p></a></li>
-                <li><a href="#about"><p className='menu_lin'>About Me</p></a></li>
-                <li><a href="#expriences"><p className='menu_lin'>Exprience</p></a></li>
-                <li><a href="#services"><p className='menu_lin'>Service</p></a></li>
-                <li><a href="#contact"><p className='menu_lin'>Contact</p></a></li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Exprience</li>
+                <li>Service</li>
+                <li>Contact</li>
             </ul>
+            <p>&copy; {date} Mr. Mads | All Rights Reserved</p>
+            <p>Created with <BsFillSuitHeartFill /> by MD Abduss Sobhan</p>
         </footer>
     );
 };
