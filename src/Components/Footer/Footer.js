@@ -32,7 +32,7 @@ const Footer = () => {
                 <li>Contact</li>
             </ul>
             <p>&copy; {date} Mr. Mads | All Rights Reserved</p>
-            <p>Created with <BsFillSuitHeartFill /> by MD Abduss Sobhan</p>
+            <p>Created with <BsFillSuitHeartFill /> by MD Masum Abduss Sobhan</p>
         </footer>
     );
 };
