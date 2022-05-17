@@ -13,7 +13,7 @@ const Header = () => {
                 <div className="wrapper">
                     <ul className="dynamic-texts">
                         <li><span>I'm A Web Developer</span></li>
-                        <li><span>I'm MD Masum Abduss Sobhan</span></li>
+                        <li><span>My Name Is MD Masum Abduss Sobhan</span></li>
                     </ul>
                 </div>
                 <CTA />

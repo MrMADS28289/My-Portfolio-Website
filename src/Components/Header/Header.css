@@ -125,6 +125,31 @@ header {
     header {
         height: 100vh;
     }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper .dynamic-texts {
+        margin-left: 15px;
+        height: 50px;
+        line-height: 70px;
+        overflow: hidden;
+    }
+
+    .dynamic-texts li {
+        font-size: 1.5rem;
+        display: flex;
+    }
+
+    .dynamic-texts li span::after {
+        height: 90%;
+        border-left: 2px solid var(--color-primary);
+        margin: 0;
+    }
+
 }
 
 /* -------- MEDIA QUERIES FOR SMALL DEVICES -------*/
@@ -137,4 +162,17 @@ header {
     .scroll_down {
         display: none;
     }
+
+
+    .dynamic-texts li {
+        font-size: 1rem;
+        display: flex;
+    }
+
+    .dynamic-texts li span::after {
+        height: 80%;
+        margin-top: 20px;
+        border-left: 1px solid var(--color-primary);
+    }
+
 }
