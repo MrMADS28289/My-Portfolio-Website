@@ -4,6 +4,8 @@ import { MdOutlineMail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 import { BsWhatsapp } from 'react-icons/bs';
 import emailjs from 'emailjs-com'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
 
@@ -14,9 +16,9 @@ const Contact = () => {
 
         emailjs.sendForm('service_w1kk0y5', 'template_5ub3fgd', form.current, 'vw3RhUyXqF_NMoCFu')
             .then((result) => {
-                console.log(result.text);
+                toast.success('Eamil sent success.');
             }, (error) => {
-                console.log(error.text);
+                toast.error(error.text);
             });
         e.target.reset();
     };
@@ -24,7 +26,7 @@ const Contact = () => {
     return (
         <section id='contact'>
             <h5>Get In Touch</h5>
-            <h2>Contact Me</h2>
+            <h2 className='text-base md:text-xl lg:text-3xl mb-16'>Contact Me</h2>
 
             <div className="container contact_container">
                 <div className="contact_options">
@@ -32,21 +34,21 @@ const Contact = () => {
                         <MdOutlineMail className='contact_option-icon' />
                         <h4>Email</h4>
                         <h5>yesform2018@gmail.com</h5>
-                        <a href="mailto:yesform2018@gmail.com" target='_blank'>Send a message</a>
+                        <a href="mailto:yesform2018@gmail.com" >Send a message</a>
                     </article>
 
                     <article className="contact_option">
                         <RiMessengerLine className='contact_option-icon' />
                         <h4>Messenger</h4>
                         <h5>Mr. Mads</h5>
-                        <a href="https://m.me/Mr.Mads2" target='_blank'>Send a message</a>
+                        <a href="https://m.me/Mr.Mads2" >Send a message</a>
                     </article>
 
                     <article className="contact_option">
                         <BsWhatsapp className='contact_option-icon' />
                         <h4>Whatsapp</h4>
                         <h5>+8801734326573</h5>
-                        <a href="https://api.whatsapp.com/send?phone+8801734326573" target='_blank'>Send a message</a>
+                        <a href="https://api.whatsapp.com/send?phone+8801734326573" >Send a message</a>
                     </article>
                 </div>
                 {/* END OF CONTACT OPTION */}
@@ -57,7 +59,7 @@ const Contact = () => {
                     <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
                     <button type="submit" className='btn btn-primary'>Send Message</button>
                 </form>
-
+                <ToastContainer />
             </div>
         </section>
     );

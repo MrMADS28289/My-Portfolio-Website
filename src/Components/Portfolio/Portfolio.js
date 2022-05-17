@@ -11,7 +11,7 @@ const Portfolio = () => {
     return (
         <section id='portfolio'>
             <h5>My Recent Work</h5>
-            <h2>Portfolio</h2>
+            <h2 className='text-base md:text-xl lg:text-3xl mb-16'>Portfolio</h2>
 
             <div className="container portfolio_container">
                 <article className="portfolio_item">
@@ -20,8 +20,8 @@ const Portfolio = () => {
                     </div>
                     <h3>This is a portfolio item title</h3>
                     <div className="portfolio_item-cta">
-                        <a href="#gitlink" className='btn' target='_blank'>Github</a>
-                        <a href="https://dribbble.com/Alien_pixels" target='_blank' className='btn btn-primary'>Live Demo</a>
+                        <a href="#gitlink" className='btn' >Github</a>
+                        <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary'>Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio_item">
@@ -30,8 +30,8 @@ const Portfolio = () => {
                     </div>
                     <h3>This is a portfolio item title</h3>
                     <div className="portfolio_item-cta">
-                        <a href="#gitlink" className='btn' target='_blank'>Github</a>
-                        <a href="https://dribbble.com/Alien_pixels" target='_blank' className='btn btn-primary'>Live Demo</a>
+                        <a href="#gitlink" className='btn' >Github</a>
+                        <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary'>Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio_item">
@@ -40,8 +40,8 @@ const Portfolio = () => {
                     </div>
                     <h3>This is a portfolio item title</h3>
                     <div className="portfolio_item-cta">
-                        <a href="#gitlink" className='btn' target='_blank'>Github</a>
-                        <a href="https://dribbble.com/Alien_pixels" target='_blank' className='btn btn-primary'>Live Demo</a>
+                        <a href="#gitlink" className='btn' >Github</a>
+                        <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary'>Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio_item">
@@ -50,8 +50,8 @@ const Portfolio = () => {
                     </div>
                     <h3>This is a portfolio item title</h3>
                     <div className="portfolio_item-cta">
-                        <a href="#gitlink" className='btn' target='_blank'>Github</a>
-                        <a href="https://dribbble.com/Alien_pixels" target='_blank' className='btn btn-primary'>Live Demo</a>
+                        <a href="#gitlink" className='btn' >Github</a>
+                        <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary'>Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio_item">
@@ -60,8 +60,8 @@ const Portfolio = () => {
                     </div>
                     <h3>This is a portfolio item title</h3>
                     <div className="portfolio_item-cta">
-                        <a href="#gitlink" className='btn' target='_blank'>Github</a>
-                        <a href="https://dribbble.com/Alien_pixels" target='_blank' className='btn btn-primary'>Live Demo</a>
+                        <a href="#gitlink" className='btn' >Github</a>
+                        <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary'>Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio_item">
@@ -70,8 +70,8 @@ const Portfolio = () => {
                     </div>
                     <h3>This is a portfolio item title</h3>
                     <div className="portfolio_item-cta">
-                        <a href="#gitlink" className='btn' target='_blank'>Github</a>
-                        <a href="https://dribbble.com/Alien_pixels" target='_blank' className='btn btn-primary'>Live Demo</a>
+                        <a href="#gitlink" className='btn' >Github</a>
+                        <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary'>Live Demo</a>
                     </div>
                 </article>
             </div>

@@ -28,6 +28,14 @@
     margin: 0.8rem auto 0;
 }
 
+.swiper-pagination-bullet {
+    padding: 10px;
+}
+
+.swiper-pagination-bullet-active {
+    padding: 15px;
+}
+
 /* -------- MEDIA QUERIES FOR MEDIUM DEVICES -------*/
 @media screen and (max-width: 1024px) {
     .container.testimonials_container {

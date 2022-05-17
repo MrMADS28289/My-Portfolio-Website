@@ -6,7 +6,7 @@ const Expriences = () => {
     return (
         <section id='expriences'>
             <h5>What Skills I Have</h5>
-            <h2>My Exprience</h2>
+            <h2 className='text-base md:text-xl lg:text-3xl mb-16'>My Exprience</h2>
 
             <div className="container exprience_container">
                 <div className="exprience_frontend">

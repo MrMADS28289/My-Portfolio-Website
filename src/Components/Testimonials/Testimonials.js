@@ -41,7 +41,7 @@ const Testimonials = () => {
     return (
         <section id='testimonials'>
             <h5>Review from clients</h5>
-            <h2>Testimonials</h2>
+            <h2 className='text-base md:text-xl lg:text-3xl mb-16'>Testimonials</h2>
 
             <Swiper className="container testimonials_container"
                 modules={[Pagination]}
