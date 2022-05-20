@@ -20,16 +20,16 @@ const Footer = () => {
 
             <ul className='social_icon'>
                 <li><a href="https://www.facebook.com/Mr.Mads2"><MdFacebook className='footer_icon' /></a></li>
+                <li><a href="https://www.linkedin.com/in/abduss-sobhan/"><IoLogoLinkedin className='footer_icon' /></a></li>
                 <li><a href="/"><AiFillTwitterCircle className='footer_icon' /></a></li>
-                <li><a href="/"><IoLogoLinkedin className='footer_icon' /></a></li>
                 <li><a href="/"><AiFillInstagram className='footer_icon' /></a></li>
             </ul>
             <ul className="menu">
-                <li>Home</li>
-                <li>About</li>
-                <li>Exprience</li>
-                <li>Service</li>
-                <li>Contact</li>
+                <a href='/#'>Home</a>
+                <a href='#about'>About</a>
+                <a href='#expriences'>Exprience</a>
+                <a href='#services'>Service</a>
+                <a href='#contact'>Contact</a>
             </ul>
             <p>&copy; {date} Mr. Mads | All Rights Reserved</p>
             <p className='flex text-xs md:text-lg lg:text-3xl'>Created with <BsFillSuitHeartFill className='mx-3 mt-1' /> by MD Masum Abduss Sobhan</p>

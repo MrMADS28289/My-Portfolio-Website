@@ -8,8 +8,16 @@ import Portfolio from './Components/Portfolio/Portfolio';
 import Testimonials from './Components/Testimonials/Testimonials';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <>
       <Header />

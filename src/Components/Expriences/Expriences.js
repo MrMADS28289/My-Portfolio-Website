@@ -1,6 +1,7 @@
 import React from 'react';
 import './Expriences.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
+import { TiCancelOutline } from 'react-icons/ti'
 
 const Expriences = () => {
     return (
@@ -9,7 +10,10 @@ const Expriences = () => {
             <h2 className='text-base md:text-xl lg:text-3xl mb-16'>My Exprience</h2>
 
             <div className="container exprience_container">
-                <div className="exprience_frontend">
+                <div
+                    data-aos="zoom-in-right"
+                    data-aos-duration="800"
+                    className="exprience_frontend">
                     <h3>Frontend Development</h3>
                     <div className="exprience_contant">
                         <article className='exprience_details'>
@@ -59,7 +63,10 @@ const Expriences = () => {
 
                 {/* END OF FRONT END */}
 
-                <div className="exprience_backend">
+                <div
+                    data-aos="zoom-in-left"
+                    data-aos-duration="800"
+                    className="exprience_backend">
                     <h3>Backend Development</h3>
                     <div className="exprience_contant">
                         <article className='exprience_details'>
@@ -79,22 +86,29 @@ const Expriences = () => {
                         <article className='exprience_details'>
                             <BsPatchCheckFill className='exprience_details-icon' />
                             <div>
-                                <h4>PHP</h4>
+                                <h4>Firebase</h4>
                                 <small className='text-light'>Experienced</small>
                             </div>
                         </article>
                         <article className='exprience_details'>
-                            <BsPatchCheckFill className='exprience_details-icon' />
+                            <TiCancelOutline className='exprience_details-icon' />
+                            <div>
+                                <h4>PHP</h4>
+                                <small className='text-light'>Not Experienced</small>
+                            </div>
+                        </article>
+                        <article className='exprience_details'>
+                            <TiCancelOutline className='exprience_details-icon' />
                             <div>
                                 <h4>MySQL</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Not Experienced</small>
                             </div>
                         </article>
                         <article className='exprience_details'>
-                            <BsPatchCheckFill className='exprience_details-icon' />
+                            <TiCancelOutline className='exprience_details-icon' />
                             <div>
                                 <h4>Python</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Not Experienced</small>
                             </div>
                         </article>
                     </div>

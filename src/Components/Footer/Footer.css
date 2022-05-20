@@ -35,7 +35,7 @@ footer>ul>a {}
     color: var(--color-light);
 }
 
-.menu li {
+.menu a {
     color: var(--color-bg);
     font-size: 1.2em;
     margin: 0 10px;
@@ -43,7 +43,7 @@ footer>ul>a {}
     cursor: pointer;
 }
 
-.menu li:hover {
+.menu a:hover {
     transition: 0.5s;
     color: var(--color-light);
 }

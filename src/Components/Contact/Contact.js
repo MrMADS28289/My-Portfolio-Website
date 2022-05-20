@@ -30,21 +30,30 @@ const Contact = () => {
 
             <div className="container contact_container">
                 <div className="contact_options">
-                    <article className="contact_option">
+                    <article
+                        data-aos="zoom-in-right"
+                        data-aos-duration="800"
+                        className="contact_option">
                         <MdOutlineMail className='contact_option-icon' />
                         <h4>Email</h4>
                         <h5>abduss.sobhan28@gmail.com</h5>
                         <a href="mailto:abduss.sobhan28@gmail.com" >Send a message</a>
                     </article>
 
-                    <article className="contact_option">
+                    <article
+                        data-aos="zoom-in-right"
+                        data-aos-duration="900"
+                        className="contact_option">
                         <RiMessengerLine className='contact_option-icon' />
                         <h4>Messenger</h4>
                         <h5>Mr. Mads</h5>
                         <a href="https://m.me/Mr.Mads2" >Send a message</a>
                     </article>
 
-                    <article className="contact_option">
+                    <article
+                        data-aos="zoom-in-right"
+                        data-aos-duration="1000"
+                        className="contact_option">
                         <BsWhatsapp className='contact_option-icon' />
                         <h4>Whatsapp</h4>
                         <h5>+8801734326573</h5>

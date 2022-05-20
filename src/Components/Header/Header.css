@@ -88,6 +88,10 @@ header {
     bottom: 3rem;
 }
 
+.header_socials a {
+    font-size: 20px;
+}
+
 .header_socials::after {
     content: '';
     width: 1px;
@@ -136,6 +140,10 @@ header {
         align-items: center;
     }
 
+    .static-text {
+        font-size: 20px;
+    }
+
     .wrapper .dynamic-texts {
         margin-left: 15px;
         height: 50px;
@@ -167,6 +175,10 @@ header {
         display: none;
     }
 
+
+    .static-text {
+        font-size: 15px;
+    }
 
     .dynamic-texts li {
         font-size: 1rem;

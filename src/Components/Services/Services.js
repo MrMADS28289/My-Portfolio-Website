@@ -9,36 +9,10 @@ const Services = () => {
             <h2 className='text-base md:text-xl lg:text-3xl mb-16'>Services</h2>
 
             <div className="container services_container">
-                <article className='service'>
-                    <div className="service_head">
-                        <h3>UI/UX Design</h3>
-                    </div>
-
-                    <ul className="service_list">
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </li>
-                    </ul>
-                </article>
-                {/* END OF UI/UX */}
-                <article className='service'>
+                <article
+                    data-aos="zoom-in-right"
+                    data-aos-duration="700"
+                    className='service'>
                     <div className="service_head">
                         <h3>Web Development</h3>
                     </div>
@@ -46,56 +20,59 @@ const Services = () => {
                     <ul className="service_list">
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Work Environment — Web developers work closely with project managers and designers to ensure that final products adhere to predetermined budgets, scope,</p>
                         </li>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p> independently as freelancers or with company teams to create websites. Depending on the job, these professionals may ...</p>
                         </li>
                     </ul>
                 </article>
-                {/* END OF WEB DEVELOPMENT */}
-                <article className='service'>
+                {/* END OF UI/UX */}
+                <article
+                    data-aos="zoom-out-up"
+                    data-aos-duration="700"
+                    className='service'>
                     <div className="service_head">
-                        <h3>Content Creation</h3>
+                        <h3>Web Development</h3>
                     </div>
 
                     <ul className="service_list">
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Writing and reviewing code for sites, typically HTML, XML, or JavaScript.</p>
                         </li>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p> Integrating multimedia content onto a site. Testing web applications.</p>
                         </li>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Troubleshooting problems with performance or user experience.</p>
                         </li>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p> responsible for programming code that tells websites how to operate. Web Developers typically specialize in either “front-end”</p>
+                        </li>
+                    </ul>
+                </article>
+                {/* END OF WEB DEVELOPMENT */}
+                <article
+                    data-aos="zoom-in-left"
+                    data-aos-duration="700"
+                    className='service'>
+                    <div className="service_head">
+                        <h3>Web Development</h3>
+                    </div>
+
+                    <ul className="service_list">
+                        <li>
+                            <BiCheck className='service_list-icon' />
+                            <p> independently as freelancers or with company teams to create websites. Depending on the job, these professionals may ...</p>
                         </li>
                         <li>
                             <BiCheck className='service_list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p> responsible for programming code that tells websites how to operate. Web Developers typically specialize in either “front-end”</p>
                         </li>
                     </ul>
                 </article>
