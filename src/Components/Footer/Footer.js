@@ -19,10 +19,10 @@ const Footer = () => {
             </div>
 
             <ul className='social_icon'>
-                <li><a href=""><MdFacebook className='footer_icon' /></a></li>
-                <li><a href=""><AiFillTwitterCircle className='footer_icon' /></a></li>
-                <li><a href=""><IoLogoLinkedin className='footer_icon' /></a></li>
-                <li><a href=""><AiFillInstagram className='footer_icon' /></a></li>
+                <li><a href="https://www.facebook.com/Mr.Mads2"><MdFacebook className='footer_icon' /></a></li>
+                <li><a href="/"><AiFillTwitterCircle className='footer_icon' /></a></li>
+                <li><a href="/"><IoLogoLinkedin className='footer_icon' /></a></li>
+                <li><a href="/"><AiFillInstagram className='footer_icon' /></a></li>
             </ul>
             <ul className="menu">
                 <li>Home</li>
@@ -32,7 +32,7 @@ const Footer = () => {
                 <li>Contact</li>
             </ul>
             <p>&copy; {date} Mr. Mads | All Rights Reserved</p>
-            <p>Created with <BsFillSuitHeartFill /> by MD Masum Abduss Sobhan</p>
+            <p className='flex text-xs md:text-lg lg:text-3xl'>Created with <BsFillSuitHeartFill className='mx-3 mt-1' /> by MD Masum Abduss Sobhan</p>
         </footer>
     );
 };

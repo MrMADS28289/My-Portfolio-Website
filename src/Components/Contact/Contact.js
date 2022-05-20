@@ -16,10 +16,10 @@ const Contact = () => {
 
         emailjs.sendForm('service_w1kk0y5', 'template_5ub3fgd', form.current, 'vw3RhUyXqF_NMoCFu')
             .then((result) => {
-                toast.success('Eamil sent success.');
             }, (error) => {
                 toast.error(error.text);
             });
+        toast.success('Eamil sent success.');
         e.target.reset();
     };
 
@@ -33,8 +33,8 @@ const Contact = () => {
                     <article className="contact_option">
                         <MdOutlineMail className='contact_option-icon' />
                         <h4>Email</h4>
-                        <h5>yesform2018@gmail.com</h5>
-                        <a href="mailto:yesform2018@gmail.com" >Send a message</a>
+                        <h5>abduss.sobhan28@gmail.com</h5>
+                        <a href="mailto:abduss.sobhan28@gmail.com" >Send a message</a>
                     </article>
 
                     <article className="contact_option">

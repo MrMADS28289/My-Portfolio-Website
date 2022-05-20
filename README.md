@@ -8,7 +8,10 @@
 * Responsive.
 * CV dowanload.
 * Email send.
-* Other's contace.
+* Other's contact.
+* CSS.
+* Daisy UI.
+* AOS
 
 
 ### Description
