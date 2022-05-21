@@ -32,7 +32,7 @@
 }
 
 .service_list {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .service_list li {
@@ -67,5 +67,6 @@
     .services_container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        margin: 0;
     }
 }

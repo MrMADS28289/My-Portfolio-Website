@@ -1,5 +1,5 @@
 header {
-    height: 80vw;
+    height: 900px;
     padding-top: 2rem;
     overflow: hidden;
 }
@@ -168,6 +168,11 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+    }
+
+    .header_container {
+        margin: 0;
+        padding: 0;
     }
 
     .header_socials,
