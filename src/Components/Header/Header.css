@@ -168,11 +168,7 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
-    }
-
-    .header_container {
         margin: 0;
-        padding: 0;
     }
 
     .header_socials,

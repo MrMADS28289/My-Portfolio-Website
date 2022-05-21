@@ -2,11 +2,6 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-    margin: 0;
-}
-
-.about_content p {
-    margin: 0;
 }
 
 .about_me {
@@ -19,8 +14,6 @@
             transparent);
     display: grid;
     place-items: center;
-    margin: 0;
-
 }
 
 .about_me img {
@@ -28,7 +21,6 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
-    margin: 0;
 }
 
 .about_me img:hover {
@@ -39,7 +31,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    margin: 0;
 }
 
 .about_card {
@@ -48,7 +39,6 @@
     border-radius: 1rem;
     padding: 1rem;
     text-align: center;
-    margin: 0;
     transition: var(--transition);
 }
 
@@ -74,7 +64,6 @@
 }
 
 .about_content p {
-    margin: 0;
     color: var(--color-light);
 }
 
